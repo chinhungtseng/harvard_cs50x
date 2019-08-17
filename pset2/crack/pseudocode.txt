@@ -1,0 +1,15 @@
+1. password: each password is no longer than five (5) characters and only alphabetical characters 
+   -> 387659012 different set
+2. salt: a two-character string chosen from the set [a-zA-Z0-9./]  
+   -> there are 4096(64^2) different set
+
+-----------------------------------------------------------------------------------------------------
+Check only have two command-line argument (argv[0] and argv[1])
+    if not, print error message and return 1
+Assign hash a variable name 
+Iterate to create the password with salt
+    random a new hash password
+    If the password matches the hash
+        print the password
+        stop the iteration, and return 0
+

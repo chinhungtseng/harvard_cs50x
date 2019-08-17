@@ -1,0 +1,13 @@
+// Check that program was run with one command-line argument
+
+// Iterate over the provided argument to make sure all characters are characters
+
+// Convert that commnad-line argument from a `string` to an `int`
+
+// Prompt user for plaintext
+ 
+// iterate over each character of the plaintext
+
+
+    // Convert that commnad-line argument from a `string` to an `int`
+    string key = toupper(argv[1]);

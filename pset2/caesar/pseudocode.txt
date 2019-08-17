@@ -1,0 +1,4 @@
+1. prompt for user
+2. get shift number
+3. switch letter
+

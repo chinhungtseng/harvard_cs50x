@@ -1,0 +1,6 @@
+1. prompt user for height
+
+2. if height is less than 1 or greater than 8 (or not an integer at all),
+   go back one step
+
+3. iterate from 1 through height

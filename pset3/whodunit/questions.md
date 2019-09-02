@@ -22,7 +22,6 @@ uintN_t is unsigned 0 ~ 2^N
 
 ## How many bytes is a `BYTE`, a `DWORD`, a `LONG`, and a `WORD`, respectively?
 
-|--------|-----------|------|-------|-------|---------|
 | Name   | Specifier | Bits | Bytes | Min   | Max     |
 |--------|-----------|------|-------|-------|---------|
 | BYTE   | uint8_t   | 8    | 1     | 0     | 2^8 -1  |
@@ -42,7 +41,6 @@ A typical application reads this block first to ensure that the file is actually
 The first 2 bytes of the BMP file format are the character "B" then the character "M" in ASCII encodeing.
 All of the integer values are stored in little-endian format(i.e.least-sinificant byte first.)
 
-|-------|---------|-----------|-------------|
 | ASCII | Decimal | Binary    | Hexadecimal |
 |-------|---------|-----------|-------------|
 | B     | 66      | 0100 0010 | 0x42        |
@@ -75,7 +73,6 @@ For RGB DIBs, the image orientation is indicated by the __biHight__ member of th
 biBitCount: the number of bits per pixel, which is the color depth of the image.
 Typical values are 1, 4, 8, 16, 24 and 32.
 
-|--------|------|------------|
 | offset | type | name       |
 |--------|------|------------|
 | 28     | WROD | biBitCount |
